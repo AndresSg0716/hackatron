@@ -10,7 +10,7 @@ header{
     text-align: center;
     padding: 10px;
     background-color: black;
-    height: 200px;
+    height: 220px;
 }
 
 nav a{
@@ -30,10 +30,9 @@ nav a:hover{
     border-radius: 10%;
 }
 
-section #intro{
+section.intro{
     height: 800px;
     width: 100%;
-    margin: 100px;
 }
 
 nav{
@@ -41,11 +40,16 @@ nav{
     justify-content: center;
 }
 
-section #intro{
+section.intro{
     background-image: url(../Img/fondo.jpg);
+    background-repeat: no-repeat;
     height: 800px;
     width: 100%;
-    margin: 800px;
+}
+
+section.intro img{
+    width: 1000px;
+    height: 800px;
 }
 
 .caja img{
@@ -56,5 +60,4 @@ section #intro{
 .caja_inversa img{
     height: 300px;
     width: 300px;
-}
-
+} 
