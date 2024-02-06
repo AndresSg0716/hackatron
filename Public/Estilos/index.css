@@ -1,4 +1,60 @@
 *{
     margin: 0;
-    
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Protest Riot', sans-serif;
 }
+
+header{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    height: 200px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: red;
+    transition: 0.3s;
+    border-radius: 10%;
+}
+
+section #intro{
+    height: 800px;
+    width: 100%;
+    margin: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+section #intro{
+    background-image: url(../Img/fondo.jpg);
+    height: 800px;
+    width: 100%;
+    margin: 800px;
+}
+
+.caja img{
+    height: 300px;
+    width: 300px;
+}
+
+.caja_inversa img{
+    height: 300px;
+    width: 300px;
+}
+
