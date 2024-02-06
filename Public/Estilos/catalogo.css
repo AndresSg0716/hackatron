@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Protest Riot', sans-serif;
 }
 .zapateria{
     display: grid;
@@ -14,7 +15,6 @@ border: solid black 3px;
 border-radius: 20px;
 text-align: center;
 height: 430px;
-font-family: Arial, Helvetica, sans-serifx ;
 background-color: rgb(168, 168, 168);
 }
 
